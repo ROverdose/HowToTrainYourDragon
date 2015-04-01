@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovementTest", "MovementTest\MovementTest\MovementTest.csproj", "{602C5790-D899-46BA-ABC0-53C3872D2702}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MovementTestContent", "MovementTest\MovementTestContent\MovementTestContent.contentproj", "{83852BD9-F56F-4095-8F6F-E2F3287BE337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602C5790-D899-46BA-ABC0-53C3872D2702}.Debug|x86.ActiveCfg = Debug|x86
+		{602C5790-D899-46BA-ABC0-53C3872D2702}.Debug|x86.Build.0 = Debug|x86
+		{602C5790-D899-46BA-ABC0-53C3872D2702}.Release|x86.ActiveCfg = Release|x86
+		{602C5790-D899-46BA-ABC0-53C3872D2702}.Release|x86.Build.0 = Release|x86
+		{83852BD9-F56F-4095-8F6F-E2F3287BE337}.Debug|x86.ActiveCfg = Debug|x86
+		{83852BD9-F56F-4095-8F6F-E2F3287BE337}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.csprojResolveAssemblyReference.cache
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.exe
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.pdb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.exe
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.pdb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\grass.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\dirt.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\flowers.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\trees.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\tree_single.xnb
