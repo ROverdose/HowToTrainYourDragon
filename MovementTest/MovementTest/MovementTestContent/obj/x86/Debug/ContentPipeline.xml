@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>grass.png</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2015-04-06T11:04:50.8616767-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Desert.jpg</Source>
+      <Name>Desert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb</Output>
+      <Time>2015-04-06T11:04:50.8036734-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SnoopDog.jpg</Source>
+      <Name>SnoopDog</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb</Output>
+      <Time>2015-04-06T11:04:50.8086737-04:00</Time>
+    </Item>
+    <Item>
+      <Source>dirt.png</Source>
+      <Name>dirt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\dirt.xnb</Output>
+      <Time>2015-04-06T11:04:50.8586765-04:00</Time>
+    </Item>
+    <Item>
+      <Source>flowers.png</Source>
+      <Name>flowers</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\flowers.xnb</Output>
+      <Time>2015-04-06T11:04:50.8596766-04:00</Time>
+    </Item>
+    <Item>
+      <Source>trees.png</Source>
+      <Name>trees</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\trees.xnb</Output>
+      <Time>2015-04-06T11:04:50.9236803-04:00</Time>
+    </Item>
+    <Item>
+      <Source>tree_single.png</Source>
+      <Name>tree_single</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\tree_single.xnb</Output>
+      <Time>2015-04-06T11:04:50.9216801-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTestContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\CPS Research Lab\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-04-06T09:35:18.8580203-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -25,8 +25,8 @@ namespace MovementTest
         Texture2D backgroundtexture;
         Vector2 backgroundPosition;
         List<Texture2D> tiles = new List<Texture2D>();
-        static int tileWidth = 32;
-        static int tileHeight = 32;
+        static int tileWidth = 16;
+        static int tileHeight = 16;
         int tileMapWidth;
         int tileMapHeight;
         int[,] map = {
