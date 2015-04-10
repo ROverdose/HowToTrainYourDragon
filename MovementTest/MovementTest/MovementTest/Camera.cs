@@ -19,7 +19,7 @@ namespace MovementTest
         }
         public void update(GameTime gametime, Game1 avatar)
         {
-            centre = new Vector2(avatar.position.X + (avatar.avatarBounds.Width / 2)-400, avatar.position.Y + (avatar.avatarBounds.Height / 2)-200);//
+            centre = new Vector2(avatar.animatedSprite.Position.X + (32) - 400, avatar.animatedSprite.Position.Y + (32) - 200);//
             transform = Matrix.CreateScale(new Vector3(1, 1, 0))*
             Matrix.CreateTranslation(new Vector3(-centre.X, -centre.Y,0));
         }

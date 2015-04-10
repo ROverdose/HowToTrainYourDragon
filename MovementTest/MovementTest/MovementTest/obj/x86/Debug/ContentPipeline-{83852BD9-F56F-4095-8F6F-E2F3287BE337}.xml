@@ -64,6 +64,15 @@
       <Output>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\tree_single.xnb</Output>
       <Time>2015-03-20T20:43:46.7095873-04:00</Time>
     </Item>
+    <Item>
+      <Source>scarybaldman.png</Source>
+      <Name>scarybaldman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\scarybaldman.xnb</Output>
+      <Time>2015-04-08T12:49:22.0328508-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{83852BD9-F56F-4095-8F6F-E2F3287BE337}</ContentProjectGUID>
@@ -71,10 +80,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTestContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

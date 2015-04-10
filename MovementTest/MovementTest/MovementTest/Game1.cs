@@ -16,39 +16,49 @@ namespace MovementTest
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Camera cam;
-        Texture2D avatar;
         Vector2 velocity, movementSpeed;
         public Vector2 position;
         public Rectangle avatarBounds;
-
+        //sprite
+        public AnimatedSprite animatedSprite;
         //Background
-        Texture2D backgroundtexture;
         Vector2 backgroundPosition;
         List<Texture2D> tiles = new List<Texture2D>();
-        static int tileWidth = 16;
-        static int tileHeight = 16;
+        static int tileWidth = 32;
+        static int tileHeight = 32;
         int tileMapWidth;
         int tileMapHeight;
         int[,] map = {
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
-{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 0, 0, 0, 0, },
-{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, },
-{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 0, 0, 0, 0, },
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
-{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
+{3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 0, 0, },
 };
         public Game1()
         {
@@ -69,17 +79,20 @@ namespace MovementTest
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            avatar = Content.Load<Texture2D>("SnoopDog");
 
-            avatarBounds = new Rectangle((int)(position.X - avatar.Width / 2),
-            (int)(position.Y - avatar.Height / 2), avatar.Width, avatar.Height);
+            //avatarBounds = new Rectangle((int)(position.X - avatar.Width / 2),
+           // (int)(position.Y - avatar.Height / 2), avatar.Width, avatar.Height);
+
+            //sprite animation
+            animatedSprite = new AnimatedSprite(Content.Load<Texture2D>("scarybaldman"), 1, 64,64);
+            animatedSprite.Position = new Vector2(400, 300);
+
 
             //background
             tiles.Add(Content.Load<Texture2D>("grass"));//0
             tiles.Add(Content.Load<Texture2D>("dirt"));//1
             tiles.Add(Content.Load<Texture2D>("flowers"));//2
             tiles.Add(Content.Load<Texture2D>("tree_single"));//3
-         //   backgroundtexture = Content.Load<Texture2D>("Desert");
             backgroundPosition = new Vector2(-400, 0);
         }
 
@@ -92,6 +105,7 @@ namespace MovementTest
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            
             KeyboardState KS = Keyboard.GetState();
 
 
@@ -100,17 +114,17 @@ namespace MovementTest
                 this.Exit();
             velocity = Vector2.Zero;
             //movement
-            if (KS.IsKeyDown(Keys.W)) { velocity.Y = -movementSpeed.Y; }
-            if (KS.IsKeyDown(Keys.S)) { velocity.Y = +movementSpeed.Y; }
-            if (KS.IsKeyDown(Keys.A)) { velocity.X = -movementSpeed.Y; }
-            if (KS.IsKeyDown(Keys.D)) { velocity.X = +movementSpeed.Y; }
+            //if (KS.IsKeyDown(Keys.W)) { velocity.Y = -movementSpeed.Y; }
+            //if (KS.IsKeyDown(Keys.S)) { velocity.Y = +movementSpeed.Y; }
+            //if (KS.IsKeyDown(Keys.A)) { velocity.X = -movementSpeed.Y; }
+            //if (KS.IsKeyDown(Keys.D)) { velocity.X = +movementSpeed.Y; }
         
             position += velocity;
             avatarBounds.X = (int)position.X;
             avatarBounds.Y = (int)position.Y;
             tiles.Add(Content.Load<Texture2D>("grass"));
             
-
+            animatedSprite.HandleSpriteMovement(gameTime);
             cam.update(gameTime,this);
             base.Update(gameTime);
         }
@@ -133,10 +147,10 @@ namespace MovementTest
                     tileHeight),
                     Color.White);
                 }
-            }
-            spriteBatch.Draw(avatar, position, Color.White);
-
+            } 
+            spriteBatch.Draw(animatedSprite.Texture, animatedSprite.Position, animatedSprite.SourceRect, Color.White, 0f, animatedSprite.Origin, 1.0f, SpriteEffects.None, 0);
             spriteBatch.End();
+           
             base.Draw(gameTime);
         }
   
