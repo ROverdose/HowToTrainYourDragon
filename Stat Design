@@ -1,0 +1,75 @@
+Definitions:
+Main Stat - Strength, Dexterity, Intelligence; the three stats that direct the damage and defense of a player.
+Sheet Stat - The stats on the character sheet, including damage, defense, HP, movement speed, and so on
+On-Hit - An effect that occurs on a character hit, whether it is a spell, a skill, or a basic attack
+Character Sheet - the culmination of the final stats of a chracter, after accounting for main stat modifiers and level
+
+
+
+Player health will not exceed 1,000
+Player resource is based on the class (more later).
+Armor is designed to reduce up to 60% of enemy damage, affects all damage.
+Resistances reduce damage up to 60% after armor, there will be mulitple elements + physical resistances.
+Movement speed is slow, can be increased by 50%.
+Attack speed will not go above 4.0 attacks per second.
+Player damage will start at around 15% of player starting HP, reaching about 1,000% of limit.
+Rogue class has access to evasion, intended to make suffering huge hits less frequent.
+
+Three main stats: Strength (HP, base damage), Dexterity (Armor, base damage), Intelligence (Resist, spell damage)
+Each stat has a hard cap of 1000.
+Stats modify character sheet as follows:
+Strength
+  + .5% HP per point (sum of bonus and base HP)
+  + 1% base damage per point
+Dexterity
+  + 1% armor per point (only affects bonus armor)
+  + 1.5% base damage per point
+Intelligence
+  + 0.1 Resist per point (1 Resist per 10 Points)
+  + 2.5% spell damage per point
+Main stats will not increase per level, only obtainable through items or skills.
+
+Evasion is 15% chance for Mage and Warrior, 35% for a Rogue.  Evasion increases are not standard.
+
+Enemy HP will not exceed 1,000,000.  
+Enemies do not have armor or resists except under special conditions.
+Enemies do not have resources except under special conditions.
+Enemy movement scales with location and difficulty, up to 150% faster than baseline.  
+Enemy basic attacks will not exceed 4.0 attacks per second.
+Enemy spells will not exceed 6.0 spells per second.
+
+Damage over Time effects are uniform across player and enemy.
+Base hit damage increased by attack speed and critical chance %'s.  
+
+Special on-hit effects always work unless otherwise noted in game.  They will be tuned low.
+
+Player/Enemy relationships:
+Armor/resistances are for enemies at the player's current level.  Higher level enemies ignore more armor/resistances.
+Mage Damage from enemies:
+  7.5%-10% of HP with weak, 40-50% with strong, DoT does about 4% of HP/second
+  Armor will be less available than Resistances
+Warrior Damage from enemies:
+  4-6% of HP with weak, 25-30% with strong, DoT does about 2.5% of HP/second
+  Armor will be more available than Resistances
+  Generally will be at the mercy of more attacks due to lack of range
+Rogue Damage from enemies:
+  Same HP% expected as mage
+  Evasion will exist
+  Armor and Reistances will be about equal
+
+Starting Stats:
+Mage:
+  HP: 30
+  Base DMG: 4
+  Armor: 10
+  Resist: 0
+Rogue:
+  HP: 30
+  Base DMG: 8
+  Armor: 10
+  Resist: 0
+Warrior
+  HP: 50
+  Base DMG: 8
+  Armor: 20
+  Resist: 0
