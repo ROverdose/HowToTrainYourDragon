@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>SnoopDog.jpg</Source>
+      <Name>SnoopDog</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb</Output>
+      <Time>2015-03-20T14:57:12.850017-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Desert.jpg</Source>
+      <Name>Desert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb</Output>
+      <Time>2015-03-18T09:48:33.4718023-04:00</Time>
+    </Item>
+    <Item>
+      <Source>scarybaldman.png</Source>
+      <Name>scarybaldman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\scarybaldman.xnb</Output>
+      <Time>2015-04-08T12:49:22.0328508-04:00</Time>
+    </Item>
+    <Item>
+      <Source>digibody.PNG</Source>
+      <Name>digibody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\digibody.xnb</Output>
+      <Time>2015-04-14T18:14:44.1767572-04:00</Time>
+    </Item>
+    <Item>
+      <Source>part1_tileset.png</Source>
+      <Name>part1_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\Documents\Visual Studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part1_tileset.xnb</Output>
+      <Time>2015-04-18T17:23:16.4045807-04:00</Time>
+    </Item>
+    <Item>
+      <Source>part2_tileset.png</Source>
+      <Name>part2_tileset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\Documents\Visual Studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part2_tileset.xnb</Output>
+      <Time>2015-04-18T18:19:09.387227-04:00</Time>
+    </Item>
+    <Item>
+      <Source>terrain.png</Source>
+      <Name>terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Time>2015-04-24T09:05:22.5788737-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{83852BD9-F56F-4095-8F6F-E2F3287BE337}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-03-17T13:15:06.1232614-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

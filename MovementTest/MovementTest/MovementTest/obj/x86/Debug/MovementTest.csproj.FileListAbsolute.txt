@@ -1,0 +1,26 @@
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.csprojResolveAssemblyReference.cache
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.exe
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.pdb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.exe
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.pdb
+c:\users\dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb
+C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\scarybaldman.xnb
+C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\digibody.xnb
+C:\Users\Dillon\Documents\Visual Studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part1_tileset.xnb
+C:\Users\Dillon\Documents\Visual Studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part2_tileset.xnb
+C:\Users\Dillon\documents\visual studio 2010\Projects\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\terrain.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\scarybaldman.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\digibody.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part1_tileset.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part2_tileset.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\terrain.xnb
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.exe
+E:\CS475\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.pdb
+E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.csprojResolveAssemblyReference.cache
+E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.exe
+E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.pdb
