@@ -43,68 +43,67 @@ Ranged
     shuriken
   
 Prefix
-  Angelic
-  Arcane
+  Angelic-lower relevant stat, increase health regen
+  Arcane- increase magic
   Blistering
-  Bloodthirsty
-  Blunt
-  Broken
-  Brutal
-  Cosmic
-  Creeping
+  Bloodthirsty- Inflicts bleed?
+  Broken- lowers base damage
+  Brutal- increase strength
+  Cosmic- ups magic things
+  Creeping- increases dex
   Cruel
   Cursed- not used yet.
-  Demonic
-  Dwarven-Forged
-  Empowered
-  Enchanted
-  Enfeebling
-  Eternal
-  Fine
-  Flaming
-  Freezing
-  Gem-Encrusted
-  Gleaming
-  Golden
-  Guardsman's
+  Demonic- lowers health regen, increase relevant stat
+  Dwarven-Forged- increse base damage
+  Empowered- increased magic thing
+  Enchanted- ups class relevant
+  Enfeebling- decrease enemy damage
+  Eternal- increased health regen
+  Fine-increased weapon damage
+  Flaming- inflict dot
+  Freezing- inflict slow
+  Gem-Encrusted- increase loot drop
+  Gleaming- slightly increase loot and gold drop
+  Golden- increase gold drop*
+  Guardsman's- ups strength
   Harbinger
-  Heavy
-  Holy
+  Heavy- increases damage, lowers attack speed
+  Holy- increase health regen slightly
   Imperial
-  Lethal
-  Light
-  Macabre
+  Lethal- increase crit chance
+  Light- increase attack speed, lowers damage
+  Macabre- inflict bleed
   Morbid
-  Mana-charged
-  Perfect
-  Pestiliential
-  Runic
+  charging- increases resource regen
+  Perfect- increased damage and crit chance
+  Pestiliential- inflicts DoT
+  rogue's- increases dexterity
+  Runic- increases relevant stat
   Savage
-  Serrated
-  Sharp
+  Serrated- inflicts DoT
+  Sharp- increase crit chance
   Sonic
   Standard
   Tarnished
   Terra
-  Two-Handed
-  Unholy
-  Vorpal
+  Unholy- increase relevant stat slightly
+  Vorpal- increases crit chance
   Whirling
-  Wooden
-  Worn
+  Wooden- lower weapon damage
+  Worn- lower weapon damage
   
 Suffix
   Of Blood
   Of Chaos
   Of Darkness
   Of Death
-  Of Decapitation
+  Of Decapitation- increase crit chance
   Of Despair
   Of Destruction
   Of Disembowelment
   Of Fate
   Of Hope
-  Of Knowledge
+  Of Knowledge- increase intelligence
   Of Life
   Of Love
   Of Mastery
@@ -116,7 +115,7 @@ Suffix
   of restoration
   of salvation
   of shadow
-  of silence
+  of silence- increase dexterity
   of sorrows
   of terror
   of thunder
