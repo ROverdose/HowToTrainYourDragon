@@ -1,0 +1,49 @@
+All Gear:
+All gear can roll Dexterity, Intelligence, or Strength
+Item level determines the class of items available and is based on player level and location
+
+
+
+
+Weapon Stat Rolls:
+All Weapons have base damage
+All Weapons have base attack speed (standard attack speed is 1.0)
+Weapons can roll bonus damage 
+Attack Speed (up to 15% more)
+Cooldown Reduction (up to 15%)
+Life on Hit
+Life Steal (Life Steal can roll up to 4%)
+Bleed (around 2x the base damage of a weapon over 5 seconds)
+
+Armor Stat Rolls:
+All armor has base armor
+All armor can roll bonus health
+All armor can roll bonus armor
+Gloves:
+  Critical Hit Chance (Up to 4.0%)
+  Critical Hit Damage (Up to 50.0%)
+  Cooldown Reduction (Up to 10.0%)
+Helmet:
+  Critical Hit Chance (Up to 4.0%)
+  Thorns
+  Increase Life Regen
+Chest:
+  Reduced Melee Damage
+  Reduced Ranged Damage
+  Thorns
+  Reduced Elite Damage
+  
+Boots:
+  Movement Speed (15%)
+  Reduce Melee/Ranged Damage
+Rings (2):
+  Critical Hit Chance (Up to 4.0%)
+  Critical Hit Damage (Up to 25.0%)
+  Increase Spell Damage
+Amulet:
+  Critical Hit Chance (Up to 6.0%)
+  Critical Hit Damage (Up to 50.0%)
+  Increase Spell Damage
+  Increase Life Regeneration
+  
+Belt:
