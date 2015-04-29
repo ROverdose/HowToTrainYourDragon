@@ -24,3 +24,16 @@ E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.cspro
 E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.exe
 E:\CS475\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.pdb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\Desert.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\SnoopDog.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\scarybaldman.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\digibody.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part1_tileset.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\part2_tileset.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\Content\terrain.xnb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.exe
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\bin\x86\Debug\MovementTest.pdb
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.csprojResolveAssemblyReference.cache
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.exe
+C:\Users\Doug\Documents\HowToTrainYourDragon\MovementTest\MovementTest\MovementTest\obj\x86\Debug\MovementTest.pdb
