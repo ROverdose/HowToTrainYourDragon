@@ -43,15 +43,17 @@ Ranged
     shuriken
   
 Prefix
+  Alucard's- life drain
   Angelic-lower relevant stat, increase health regen
   Arcane- increase magic
-  Blistering
+  accurate- increases dexterity
+  Blistering-
   Bloodthirsty- Inflicts bleed?
   Broken- lowers base damage
   Brutal- increase strength
   Cosmic- ups magic things
   Creeping- increases dex
-  Cruel
+  Cruel- crit damage
   Cursed- not used yet.
   Demonic- lowers health regen, increase relevant stat
   Dwarven-Forged- increse base damage
@@ -66,66 +68,68 @@ Prefix
   Gleaming- slightly increase loot and gold drop
   Golden- increase gold drop*
   Guardsman's- ups strength
-  Harbinger
+  Harbinger- crit damage
   Heavy- increases damage, lowers attack speed
   Holy- increase health regen slightly
   Imperial
   Lethal- increase crit chance
   Light- increase attack speed, lowers damage
   Macabre- inflict bleed
-  Morbid
+  magical- increase intelligence
+  Morbid- crit damage
   charging- increases resource regen
   Perfect- increased damage and crit chance
   Pestiliential- inflicts DoT
   rogue's- increases dexterity
   Runic- increases relevant stat
-  Savage
+  Savage- increases strength
   Serrated- inflicts DoT
-  Sharp- increase crit chance
-  Sonic
-  Standard
-  Tarnished
+  Sharp- increase crit 
+  Sonic- increase crit chance
+  Tarnished- lower weapon damage
   Terra
   Unholy- increase relevant stat slightly
   Vorpal- increases crit chance
+  vampiric- life drain
   Whirling
   Wooden- lower weapon damage
   Worn- lower weapon damage
+
   
 Suffix
   Of Blood
-  Of Chaos
+  Of Chaos- random effect. doesnt say which one
   Of Darkness
-  Of Death
+  Of Death- inflicts DoT
   Of Decapitation- increase crit chance
-  Of Despair
-  Of Destruction
-  Of Disembowelment
+  Of Despair- lower enemy damage
+  Of Destruction- crit damage
+  Of Disembowelment- crit damage
   Of Fate
   Of Hope
   Of Knowledge- increase intelligence
-  Of Life
+  Of Life- increase health
   Of Love
-  Of Mastery
-  Of Murder
-  Of Nevermore
-  Of Obliteration
-  Of Power
+  Of Mastery- increase relevant stat.
+  Of Murder- crit damage
+  Of Nevermore- increase dexterity
+  Of Obliteration- crit chance, strength, crit damage
+  Of Power- increase strength
   of rebirth
-  of restoration
-  of salvation
+  of restoration- increase resource regen
+  of salvation- increase health regen
   of shadow
   of silence- increase dexterity
-  of sorrows
+  of sorrows- lower enemy damage
   of terror
   of thunder
-  of vigour
+  of vigour- resource regen
   of the abyss
-  of the ancients
-  of the apocalypse
-  of the gods
-  of the hero
-  of the immortal
-  of the master
-  of the underworld
+  of the ancients- increase intelligence
+  of the apocalypse- crit damage
+  of the gods- enchant based on weapon/armor type
+  of the hero- increase relevant stat
+  of the immortal- increase health regen
+  of the master- increase relevant stat
+  of the underworld- increase gold drop
   of the wilderness
